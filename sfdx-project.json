@@ -1,11 +1,10 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+  "orgName": "DreamHouse Realty",
+  "edition": "Developer",
+  "packageDirectories": [{ "path": "force-app", "default": true }],
+  "settings": {
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "49.0"
+  }
 }
